@@ -26,21 +26,21 @@
   color: #c1c1c1;
 }
 
-.section h1 {
+.s2 h1 {
   font-size: 50px;
 }
 
 .s2 {
-  background: #3c3b3f; /* fallback for old browsers */
+  background: #603813; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to left,
-    #605c3c,
-    #3c3b3f
+    #b29f94,
+    #603813
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to left,
-    #605c3c,
-    #3c3b3f
+    #b29f94,
+    #603813
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
