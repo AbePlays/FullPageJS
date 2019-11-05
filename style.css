@@ -4,29 +4,9 @@
   box-sizing: border-box;
 }
 
-.rdr {
-  height: 60%;
-  position: absolute;
-  top: 70%;
-  left: 85%;
-  transform: translate(-85%, -70%);
-}
-
 .s1 {
   background-image: url("./Image/xbox.jpg");
   background-size: cover;
-}
-
-.esrb {
-  height: 80px;
-  widows: 80px;
-  position: absolute;
-  left: 40px;
-  bottom: 30px;
-}
-
-.rock {
-  left: 200px;
 }
 
 .section h1 {
@@ -42,48 +22,27 @@
   top: 10%;
 }
 
-.s2 h1 {
-  font-size: 50px;
-}
-
-.s2 {
-  background: #603813; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to left,
-    #b29f94,
-    #603813
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to left,
-    #b29f94,
-    #603813
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 .s2 p {
-  color: #c1c1c1;
+  color: #ded7d6;
 }
 
-.s3 p {
-  color: #c1c1c1;
-}
-
-.description {
+.met {
   margin: 20%;
   width: 50%;
   margin-left: 5%;
   font-size: 20px;
 }
 
-.description p {
-  margin: 50px 0;
-}
-
-.s3 {
-  background-image: url("./Image/metro.jpg");
+.s2 {
+  background: linear-gradient(
+      to top,
+      rgba(222, 215, 214, 0),
+      rgba(0, 0, 0, 100)
+    ),
+    url("./Image/metro.jpg");
   background-size: cover;
 }
 
-.s3 h1 {
-  color: white;
+.s2 h1 {
+  color: #c1c1c1;
 }
