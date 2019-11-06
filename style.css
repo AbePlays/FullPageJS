@@ -12,18 +12,27 @@
 .section h1 {
   font-size: 64px;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -20%);
   color: #c1c1c1;
 }
 
-.s1 h1 {
-  top: 10%;
-}
-
 .s2 p {
   color: #ded7d6;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: white;
+}
+
+.metrologo {
+  position: absolute;
+  height: 100px;
+  width: 250px;
+  bottom: 30px;
+  left: 50px;
 }
 
 .met {
@@ -41,8 +50,19 @@
     ),
     url("./Image/metro.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .s2 h1 {
   color: #c1c1c1;
+}
+
+.s3 {
+  background-image: url("./Image/gow.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.s3 h1 {
+  color: #fffdf9;
 }
